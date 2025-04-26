@@ -45,11 +45,35 @@
   gap: 20px; /* Space between each link */
 }
 
-nav ul li a {
-  text-decoration: none; /* Removes underline */
-  color: black; /* You can change to any color */
+<nav>
+  <ul class="menu">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#testimonials">Testimonials</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+  </ul>
+</nav>
+
+<style>
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  margin: 0 20px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
   font-weight: bold;
 }
+</style>
+        
     </header>
 
     <!-- How It Works Section -->
